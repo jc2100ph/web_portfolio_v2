@@ -7,7 +7,8 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'first_page_background': "url('./src/picture/first_page/first_page_background_enhance_webp.webp')"
+        'first_page_background': "url('./src/picture/first_page/first_page_background_enhance_webp.webp')",
+        'second_page_background': "url('./src/picture/second_page/second_page_background-enhance_webp.webp')"
       },
       fontFamily: {
         'roboto-condensed': ['Roboto Condensed', 'sans-serif'],

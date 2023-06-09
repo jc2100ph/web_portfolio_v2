@@ -1,4 +1,4 @@
-import front_page_pic from "../../picture/first_page/front_page.webp"
+import front_page_laptop_pic from "../../picture/first_page/front_page.webp"
 
 export default function FirstPageComponent() {
     return (
@@ -14,7 +14,7 @@ export default function FirstPageComponent() {
                     </p>
                 </div>
                 <div>
-                    <img src={front_page_pic} alt="front page pic" />
+                    <img src={front_page_laptop_pic} alt="front page pic" />
                 </div>
             </section>
         </>
