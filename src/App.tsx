@@ -1,5 +1,6 @@
 import FirstPageComponent from "./components/first_page/FirstPageComponent"
 import SecondPageComponent from "./components/second_page/SecondPageComponent"
+import ThirdPageComponent from "./components/third_page/ThirdPageComponent"
 
 function App() {
   return (
@@ -7,7 +8,7 @@ function App() {
       <div className="snap-y snap-mandatory grid place-items-center h-screen w-screen bg-black overflow-scroll">
         <FirstPageComponent />
         <SecondPageComponent />
-        <div className="snap-center shrink-0 bg-red-500 w-[96vw] h-[93vh] m-[5%]"></div>
+        <ThirdPageComponent />
       </div>
     </>
   )
