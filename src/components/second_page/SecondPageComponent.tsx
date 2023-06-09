@@ -39,7 +39,7 @@ export default function SecondPageComponent() {
                             </p>
                         </div>
                         <h1 className="font-roboto-condensed tracking-[0.15em] font-bold text-2xl ml-12 mt-10">TECH STACK</h1>
-                        <div className="grid grid-cols-[1fr,1.5fr] mt-10">
+                        <div className="grid grid-cols-[1fr,1.5fr] mt-5">
                             <div className=" flex flex-col place-self-start gap-5 ml-12 font-roboto-condensed text-xl tracking-[0.15em] ">
                                 <button className={(state === "language") ? " text-left font-bold underline underline-offset-8" : "text-left hover:font-bold"}
                                     onClick={() => setState("language")}>

@@ -1,6 +1,7 @@
 import FirstPageComponent from "./components/first_page/FirstPageComponent"
 import SecondPageComponent from "./components/second_page/SecondPageComponent"
 import ThirdPageComponent from "./components/third_page/ThirdPageComponent"
+import FourthPageComponent from "./components/fourth_page/FourthPageComponent"
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <FirstPageComponent />
         <SecondPageComponent />
         <ThirdPageComponent />
+        <FourthPageComponent />
       </div>
     </>
   )
