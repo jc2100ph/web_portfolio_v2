@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: "Neutraface-Bold";
+    src: url("./font/Neutraface Text Bold.otf");
+}
+
+@font-face {
+    font-family: "Neutraface-Book";
+    src: url("./font/Neutraface Text Book.otf");
+}
