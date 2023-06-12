@@ -1,12 +1,14 @@
 import { useState } from "react"
 import front_view_laptop from "../../picture/second_page/second_page.webp"
+import second_page_background from "../../picture/second_page/second_page_background-enhance_webp.webp"
 
 export default function SecondPageComponent() {
     const [state, setState] = useState("language")
 
     return (
         <>
-            <section className=" relative snap-center shrink-0 bg-second_page_background bg-cover bg-center w-[96vw] h-[93vh] m-[5%] overflow-hidden">
+            <section className=" relative snap-center shrink-0 bg-cover bg-center w-[96vw] h-[93vh] m-[5%] overflow-hidden"
+                style={{ backgroundImage: `url(${second_page_background})` }}>
                 <img className=" absolute z-10 w-[95%] left-[50%] translate-x-[-50%]" src={front_view_laptop} alt="front view laptop" />
                 <div className=" mt-[2%]">
                     <div className=" border-solid relative z-20 border-black w-[60%] border-2 ml-auto mr-auto ">

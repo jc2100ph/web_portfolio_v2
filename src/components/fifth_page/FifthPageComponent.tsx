@@ -1,9 +1,11 @@
 import laptopRender from "../../picture/fifth_page/fifth_page.webp"
+import fifth_page_background from "../../picture/fifth_page/fifth_page_background-enhance_webp.webp"
 
 export default function FifthPageComponent() {
     return (
         <>
-            <section className=" relative snap-center shrink-0 bg-fifth_page_background bg-center bg-cover w-[96vw] h-[93vh] m-[5%] overflow-hidden">
+            <section className=" relative snap-center shrink-0 bg-center bg-cover w-[96vw] h-[93vh] m-[5%] overflow-hidden"
+                style={{ backgroundImage: `url(${fifth_page_background})` }}>
                 <img className="absolute z-10 top-[-5%] drop-shadow-[0_35px_35px_rgba(0,0,0,1)]" src={laptopRender} alt="" />
                 <div className=" relative z-20 grid place-items-center w-[55%] ml-[45%] p-5">
                     <svg className="mb-3" width="176" height="176" viewBox="0 0 176 176" fill="none" xmlns="http://www.w3.org/2000/svg">

@@ -1,10 +1,12 @@
 import fallingLaptop from "../../picture/last_page/last_page.webp"
+import last_page_background from "../../picture/last_page/last_page_background.webp"
 
 
 export default function LastPageComponent() {
     return (
         <>
-            <section className=" relative grid snap-center shrink-0 bg-last_page_background bg-cover bg-center w-[96vw] h-[93vh] m-[5%] overflow-hidden">
+            <section className=" relative grid snap-center shrink-0 bg-last_page_background bg-cover bg-center w-[96vw] h-[93vh] m-[5%] overflow-hidden"
+                style={{ backgroundImage: `url(${last_page_background})` }}>
                 <img className=" absolute z-10 left-[50%] translate-x-[-50%] w-[80%]" src={fallingLaptop} alt="" />
                 <div className=" relative z-20 place-self-center">
                     <h1 className=" font-roboto-condensed text-5xl tracking-[0.15em] text-white underline underline-offset-8 mb-10 text-center">CONTACT ME</h1>
